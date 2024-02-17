@@ -17,7 +17,8 @@ To install Chotu, follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/udaysinh-git/Socrative-Attendance.git```
+git clone https://github.com/udaysinh-git/Socrative-Attendance.git
+```
 2. Change into the directory:
 ```bash
 cd Socrative-Attendance
@@ -56,6 +57,19 @@ After setting up the environment variables, you can run the bot with:
 ```bash
 python main.py
 ```
+
+## Schedule Configuration
+To configure the bot's schedule, you need to modify the schedule.csv file. The file should contain three columns: day, time, and room. The day should be the full name of the day (e.g., Monday), the time should be in 24-hour format (e.g., 16:13), and the room should be the room ID. It is recommended to set the time half an hour into the lecture to ensure the bot starts when there is a chance of having attendance.
+
+Example:
+
+```csv
+day,time,room
+Monday,16:13,TESTSOCRATIVE
+```
+
+
+
 
 ## Contributing to Chotu Bot
 
