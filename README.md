@@ -10,6 +10,9 @@ Before you begin, ensure you have met the following requirements:
 * You have a Windows/Linux/Mac machine.
 * You have read the [Nextcord documentation](https://nextcord.readthedocs.io/en/latest/).
 * You have a MongoDB Atlas account.
+* You have a Discord bot token. You can follow this [guide](https://discordpy.readthedocs.io/en/stable/discord.html) to get one.
+* You have an OpenAI API token. You can follow this [guide](https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/) to get one.
+
 
 ## Installing Chotu Bot
 
